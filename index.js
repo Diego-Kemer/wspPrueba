@@ -3,6 +3,10 @@ const qrcode = require('qrcode-terminal');
 const { Client } = require('whatsapp-web.js');
 const client = new Client();
 
+router.get('/', (req, res)=>{
+    res.send("Holoooooooooooooooooo")
+})
+
 router.post('/', (req, res)=>{
     const {message, phone} = req.body;
     client.sendMessage(`549${phone}@c.us`, message);
