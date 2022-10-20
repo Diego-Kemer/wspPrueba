@@ -1,0 +1,11 @@
+#cubo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+img{
+    width: 30%;
+}
